@@ -1,20 +1,21 @@
 ## Variables
 $n = 100$ : number of cities<br>
-$C = 73$ : max cost
-$i \in \{0 \dots n\}$ : index of cities. <br> 
-$d_{i,j} \text{ with } i,j \in \{0 \dots n\} $ : distance between 2 cities <br>
-$c_{i,j}\text{ with } i,j \in \{0 \dots n\} $ : cost between 2 cities
+$m = 955$ : number of connections <br>
+$C = 73$ : fuel budget <br>
+$s_{i} \text{ with } i \in \{0 \dots m\} $ : starting point of connection $i$ <br>
+$d_{i} \text{ with } i \in \{0 \dots m\} $ : ending point of connection $i$  <br>
+$d_{i} \text{ with } i \in \{0 \dots m\} $ : distance between cities $s_i$ and $e_i$ <br>
+$c_{i}\text{ with } i \in \{0 \dots m\} $ : cost between between cities $s_i$ and $e_i$
 
 ## Parameters
-$x_{i,j}\text{ with } i,j \in \{0 \dots n\}, \text{binary} $ : 1 if the path goes from $i$ to $j$, 0 else. <br>
+$x_{i}\text{ with } i \in \{0 \dots m\}, \text{binary} $ : 1 if the path goes from $s_i$ to $e_i$, 0 else. <br>
 
 ## Objective function
 
-$ \text{min } z = \sum_i \sum_j d_{i,j}*x_{i,j} $
+$\text{min } z = \sum_i d_{i}*x_{i}$ : minimize the distance
 
 ## Constraints
-(1) : $ \forall j \in \{0 ,\dots, n-1\}, \sum_i  x_{ij}<=1  $ : max once to a cities <br>
-(2) : $ \forall i \in \{1 ,\dots, n\}, \sum_j  x_{ij}<=1  $ : max once from a cities <br>
-(3) : $ \sum_j x_{0,j} = \sum_i x_{i,100} = 1 $ : start from madrid and finish to copenhagen <br
-(4) : $ \sum_i \sum_j  c_{ij}<=C  $ : max cost <br>
-
+(1) : $ \sum_i c_{i}*x_i<=C  $ : max cost <br>
+(2) : $\sum_{i \in \{0 \dots m|s_i = 1 \}}x_i=1$ : starting from Madrid <br>
+(3) : $\sum_{i \in \{0 \dots m|e_i = n \}}x_i=1$ : end at Copenhagen <br>
+(4) : $\forall j \in \{1 \dots n\},   \sum_{i \in \{0 \dots m|s_i = j \}}x_i=\sum_{i \in \{0 \dots m|e_i = j \}}x_i$ : flow conservation <br>

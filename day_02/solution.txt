@@ -1,0 +1,6 @@
+Total distance: 131.0
+Total cost: 44.0
+Connection 1 -> 37, Distance: 9, Cost: 59
+Connection 37 -> 41, Distance: 28, Cost: 14
+Connection 41 -> 2, Distance: 68, Cost: 10
+Connection 2 -> 100, Distance: 63, Cost: 1

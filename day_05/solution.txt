@@ -1,0 +1,76 @@
+warehouse 0 is open 
+	 1337.0 products of client 3 with Cost 4914.0
+	 2003.0 products of client 6 with Cost 5427.126387130801
+	 615.0 products of client 14 with Cost 1953.7375
+	 814.0 products of client 24 with Cost 4883.0
+	 231.0 products of client 30 with Cost 12480.1875
+warehouse 1 is open 
+	 146.0 products of client 0 with Cost 0.0
+	 1089.0 products of client 7 with Cost 28499.25
+warehouse 2 is open 
+	 33.0 products of client 8 with Cost 6370.65
+	 2498.0 products of client 10 with Cost 637.5241492265695
+	 1403.0 products of client 33 with Cost 2817.2190017038415
+	 325.0 products of client 34 with Cost 203364.0
+warehouse 3 is open 
+	 904.0 products of client 11 with Cost 12638.5
+	 3016.0 products of client 17 with Cost 2542.5
+	 195.0 products of client 19 with Cost 3542.0
+	 610.0 products of client 21 with Cost 524.2069392812888
+	 275.0 products of client 42 with Cost 13627.4
+warehouse 4 is closed 
+warehouse 5 is open 
+	 31.0 products of client 4 with Cost 20071.7125
+	 143.0 products of client 13 with Cost 5185.975
+	 5.0 products of client 26 with Cost 6.697759271978022
+	 2213.0 products of client 37 with Cost 56946.3875
+	 705.0 products of client 38 with Cost 15076.0625
+	 1681.0 products of client 40 with Cost 5621.1
+	 222.0 products of client 49 with Cost 20807.1
+warehouse 6 is open 
+	 46.0 products of client 2 with Cost 125.88136160714288
+	 564.0 products of client 15 with Cost 7310.8125
+	 38.0 products of client 20 with Cost 5467.3125
+	 2111.0 products of client 33 with Cost 2747.99286032373
+	 2241.0 products of client 44 with Cost 9331.250000000002
+warehouse 7 is open 
+	 87.0 products of client 1 with Cost 3847.1
+	 559.0 products of client 5 with Cost 955.575
+	 32.0 products of client 9 with Cost 1211.925
+	 2997.0 products of client 10 with Cost 298.00924476797087
+	 226.0 products of client 16 with Cost 8135.7
+	 328.0 products of client 39 with Cost 34351.125
+	 500.0 products of client 43 with Cost 7885.625
+	 222.0 products of client 46 with Cost 39050.575
+	 49.0 products of client 47 with Cost 10134.3
+warehouse 8 is open 
+	 253.0 products of client 18 with Cost 11423.1
+	 197.0 products of client 21 with Cost 246.1706629491945
+	 3784.0 products of client 26 with Cost 5127.252861721611
+	 766.0 products of client 33 with Cost 1265.3467801270137
+warehouse 9 is open 
+	 551.0 products of client 22 with Cost 11166.8625
+	 4449.0 products of client 33 with Cost 5407.940912523235
+warehouse 10 is open 
+	 367.0 products of client 6 with Cost 1088.5227742616034
+	 1466.0 products of client 12 with Cost 2463.4
+	 304.0 products of client 23 with Cost 0.0
+	 579.0 products of client 26 with Cost 433.3088598901099
+	 482.0 products of client 28 with Cost 1601.175
+	 685.0 products of client 32 with Cost 2398.9
+	 1117.0 products of client 41 with Cost 10086.000000000002
+warehouse 11 is open 
+	 626.0 products of client 2 with Cost 1657.3629464285716
+	 337.0 products of client 25 with Cost 5270.65
+	 366.0 products of client 35 with Cost 4891.25
+	 3671.0 products of client 36 with Cost 4154.1
+warehouse 12 is open 
+	 577.0 products of client 27 with Cost 124051.2
+	 733.0 products of client 45 with Cost 89976.15
+	 1464.0 products of client 48 with Cost 2006.55
+warehouse 13 is open 
+	 495.0 products of client 29 with Cost 2958.275
+	 322.0 products of client 31 with Cost 3693.1125
+	 4183.0 products of client 33 with Cost 3547.8518480870507
+warehouse 14 is closed 
+warehouse 15 is closed 
